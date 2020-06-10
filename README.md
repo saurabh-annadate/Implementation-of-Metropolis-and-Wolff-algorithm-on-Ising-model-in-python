@@ -11,7 +11,7 @@ Metropolis algorithm near the critical region are discussed. Working of Wolff al
 overcome such issues is also discussed in the project.
 Simulation of finite size scaling is implemented to obtain the critical exponents.
 
-## Monte-Carlo simulation
+## Monte Carlo simulation
 The Monte Carlo simulation has been used to calculate the partition function of the Ising
 model. It simulates the random thermal fluctuations of the system from state to state. For
 calculating the microscopic properties we take the expectation value as a time average over
@@ -33,8 +33,6 @@ using Numba. Numba translates Python functions to optimized machine code at runt
 ing the industry-standard LLVM compiler library.
 
 ## Outline of the project
-
----
 
 *   Define all componets of Ising model
 *   Define Metropolis Algorithm
@@ -58,3 +56,6 @@ ing the industry-standard LLVM compiler library.
 *   Tackling the problem of critical slow down with Wolff's Algorithm
     * L = 50
     * L = 64
+
+## Suggestions/Queries
+Email me at saurabh.annadate9@gmail.com
